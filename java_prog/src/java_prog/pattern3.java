@@ -19,21 +19,23 @@ public class pattern3 {
 			for(int j =0; j<n; j++)
 				
 			{
-				if(i==0 || i ==(n-1) || j==0 || j==(n-1))
+				if(i==0 || i ==(n-1) || j==0 || j==(n-1) || i==1 && j>2 && j<(n-3) || i>1 && i<(n-1) && j==2 || i==(n-1)/2 && j>2 && j<(n-3) || i>1 && i< (n-1) && j == (n-3) && i != (n-1)/2  )
 				{
-					System.out.print("*");
+					System.out.print("* ");
 				
 				}
-				else if(i==1 && j>2 && j<(n-3) || i>1 && i<(n-1) && j==2 || i==(n-1)/2 && j>2 && j<(n-4) || i>1 && i< (n-1) && j == (n-3) && i != (n-1)/2 )
-				{
-					
-					System.out.print("0");
-					
-				}
+				/*
+				 * else if(i==1 && j>2 && j<(n-3) || i>1 && i<(n-1) && j==2 || i==(n-1)/2 && j>2
+				 * && j<(n-3) || i>1 && i< (n-1) && j == (n-3) && i != (n-1)/2 ) {
+				 * 
+				 * System.out.print("* ");
+				 * 
+				 * }
+				 */
 				
 				else 
 				{
-					System.out.print(" ");
+					System.out.print("  ");
 				}
 	
 			}

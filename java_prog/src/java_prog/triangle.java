@@ -10,7 +10,7 @@ public class triangle {
 	     
 		 Scanner sc = new Scanner(System.in);
 		  
-		 System.out.println("enter an odd number :");
+		 System.out.println("enter a number :");
 		 
 		 int n = sc.nextInt();
 		 
