@@ -29,7 +29,7 @@ public class methodoverloading {
 		
 		calc obj = new calc();
 		
-		byte b = 2;
+		//byte b = 2;
 		
 		obj.show('P');
 

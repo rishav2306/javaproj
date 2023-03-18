@@ -34,7 +34,7 @@ public class triangle {
 		 {
 			 for(int j=0; n%2==0?j<=n:j<n; j++ )
 			 {
-				 if(j<=(n/2)+i && j>= (n/2)-i || i==n/2 && j==n)
+				 if(j==(n/2)+i || j== (n/2)-i || i==n/2 && j<=n )
 				 {
 					 System.out.print("* ");
 				 }
